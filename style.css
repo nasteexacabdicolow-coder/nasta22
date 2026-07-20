@@ -1,0 +1,85 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{background-color: skyblue;
+margin-left: 3px; margin-right: 3px;
+margin-top: 3px;margin-bottom: 3px;
+background:#0b3d91;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+}
+a:hover{background-color: red;}
+a:focus{background-color:black;color:#ffffff;}
+a:active{background-color:yellow;}
+
+.hero{
+text-align:center;
+height:250px;
+padding:70px20px;
+background:#ddd;
+}
+
+.hero h2{
+font-size:40px;
+}
+
+.contact{
+padding:40px;
+text-align:center;
+}
+.about{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.about img{
+    width:300px;
+    border-radius:10px;
+    opacity: 0.6;
+}
+
+.box{border: solid black 5px;
+background:skyblue;
+padding:20px;
+margin:20px;
+border-radius:10px;
+}
+
+input, textarea{
+width:300px;
+padding:10px;
+margin:10px;
+}
+
+button{
+background:#0b3d91;
+color:white;
+padding:10px 20px;
+border:none;}
+ul{border: solid black 5px;padding: 30px 30px 10px 30px;margin: 30px 30px}
+
+footer{border:3px solid orange ;
+color:#222;
+text-align:center;
+padding:15px;
+margin-top:5px;
+margin-bottom:5px;
+margin-left:5px;
+margin-right:5px;
+}
